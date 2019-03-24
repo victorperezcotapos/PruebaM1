@@ -1,0 +1,51 @@
+body{
+  font-family: 'Cabin', sans-serif;
+  color:#373A3C;
+}
+
+.lobster{
+  font-family: 'Lobster', sans-serif;
+}
+
+.hero-section {
+  text-align: center;
+  background-image: url('../img/bg_hero.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 11rem 0rem 1rem 0rem;
+}
+
+@media (min-width: 600px) {
+  .hero-section {
+    text-align: center;
+    background-image: url('../img/bg_hero.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 30rem 0rem 1rem 0rem;
+  }
+}
+
+.abajo{
+  position: absolute;
+  bottom: 20%;
+  text-align: center;
+  width: 100%;
+}
+
+h1  {
+  font-weight: 700;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 9;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+}
