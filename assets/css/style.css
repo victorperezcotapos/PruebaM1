@@ -3,10 +3,6 @@ body{
   color:#373A3C;
 }
 
-.lobster{
-  font-family: 'Lobster', sans-serif;
-}
-
 .hero-section {
   text-align: center;
   background-image: url('../img/bg_hero.jpg');
@@ -33,6 +29,7 @@ body{
 }
 
 h1  {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
