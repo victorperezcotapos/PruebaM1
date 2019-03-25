@@ -11,7 +11,7 @@ body{
   padding: 11rem 0rem 1rem 0rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .hero-section {
     text-align: center;
     background-image: url('../img/bg_hero.jpg');
@@ -28,7 +28,7 @@ body{
   width: 100%;
 }
 
-h1  {
+h1, h2  {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
