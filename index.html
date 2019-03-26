@@ -48,7 +48,7 @@
 
     <section id="hero" class="hero-section container mt-5">
       <div class="container text-left">
-        <h1><span>YO SOY</span></h1>
+        <h2 class="mb-0"><span>YO SOY</span></h2>
         <h1>VICTOR</h1>
       </div>
 
@@ -74,20 +74,76 @@
         <div class="col-md-4">
           <i class="fab fa-galactic-senate fa-7x my-1"></i>
           <h4 class="mb-0 pb-0">Consultor freelance</h4>
-          <p>2012-2018</p>
+          <p class="mb-0">2012-2018</p>
+          <button id="freelance" class="btn btn-secondary mb-2" type="button" data-toggle="modal" data-target="#freelanceModal">Ver mas</button>
         </div>
         <div class="col-md-4">
           <i class="fas fa-chart-line fa-7x my-1"></i>
           <h4 class="mb-0 pb-0">Analista de Inversiones</h4>
-          <p>2016-2018</p>
+          <p class="mb-0">2016-2018</p>
+          <button id="analista" class="btn btn-secondary mb-2" type="button" data-toggle="modal" data-target="#analistaModal">Ver mas</button>
         </div>
         <div class="col-md-4">
           <i class="fas fa-book fa-7x my-1"></i>
           <h4 class="mb-0 pb-0">Subgerente de Finanzas</h4>
-          <p>2018-2019</p>
+          <p class="mb-0">2018-2019</p>
+          <button id="finanzas" class="btn btn-secondary mb-2" type="button" data-toggle="modal" data-target="#finanzasModal">Ver mas</button>
         </div>
-
       </div>
+
+            <!-- Freelance Modal -->
+      <div class="modal fade" id="freelanceModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Mi trabajo como Freelancer</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            <div class="modal-body text-justify">
+              Tengo experiencia en el desarrollo de planes de negocios, así como también en la realización de análisis financieros. Me he desempeñado como consultor para empresas de las áreas: digital, transportes, combustibles, financiera, y educación. Soy muy responsable, creativo, y me gusta dar un valor agregado en los trabajos que realizo.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- Analista Modal -->
+      <div class="modal fade" id="analistaModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Mi trabajo como Analista de Inversiones</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            <div class="modal-body text-justify">
+              Mis principales labores fueron analizar emisoras de renta fija y variable en Latinoamérica, desarrollar de modelos de dichas emisoras y proveer ideas de inversión para los fondos que manejabamos.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Finanzas Modal -->
+      <div class="modal fade" id="finanzasModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Mi trabajo como Subgerente de Finanzas</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            <div class="modal-body text-justify">
+              Mis principales labores consisten en diseñar presupuestos e informes de resultados, gestionar facturación y cobranza de la empresa, liderar proyectos de automatización dentro de la empresa, y dirigir un proyecto de recaudación online de gastos comunes.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     </section>
 
